@@ -154,8 +154,8 @@ print_usage() {
 
 		Options:
 		  -h|--help          show this help
-		  --no-install       do not install Observability Operator, useful for rerunning tests
-		  --no-uninstall     do not uninstall Observability Operator after test
+		  --no-install       do not install OBO, useful for rerunning tests
+		  --no-uninstall     do not uninstall OBO after test
 		  --postpone-restoration DURATION
 		                     delay operator Subscription restoration after uninstall
 		                     tests (e.g. 10m) to allow manual cluster inspection
